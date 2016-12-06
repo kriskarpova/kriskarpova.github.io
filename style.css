@@ -79,9 +79,3 @@ a {
 .social-links a:hover {
   opacity: 0.9;
 }
-/* ***** MEDIA-QUERIES***** */
-@@media all and (min-width: 700px) and (max-width: 1000px) {
-  body {
-    background: red;
-  }
-}
