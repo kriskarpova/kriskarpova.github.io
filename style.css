@@ -6,10 +6,10 @@ html {
   background-size: cover;
 }
 body {
-  height: 100%;
   font-size: 13px;
   font-family: "Courier New",Courier,Monaco, serif;
   color: white;
+  padding-top: 200px;
 }
 * {
   box-sizing: border-box;
@@ -17,7 +17,6 @@ body {
 
 ul li {
   list-style: none;
-  position: absolute;
 }
 
 a {
@@ -26,9 +25,8 @@ a {
 }
 
 .container {
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  max-width: 300px;
+  margin: 0 auto;
 }
 
 .header, .body, .footer {
